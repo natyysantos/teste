@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <form name="formulario">
+       
+ de:        
+ <select name="de">
+
+<option value="escolha uma das opções">escolha uma das opções</option>
+  <option value="real">real</option>></option>
+  <option value="euro">euro</option>
+  <option value="dolar">dolar</option>
+
+</select>
+
+<br>
+<br>
+
+para: 
+<select name="Para">
+
+    <option value="escolha uma das opções">escolha uma das opções</option>
+    <option value="real">real</option>></option>
+    <option value="euro">euro</option>
+    <option value="dolar">dolar</option>
+
+</select>
+
+<br>
+<br>
+
+valor:
+
+<input type="text"   name="valor" placeholder="Digite um valor maior que 0" >
+<input type="button"  id="btcalcular" value="calcular" onclick="converter()"/>
+<input type="reset" name="limpar" value="Limpar">
+<br><br>
+
+resultado: 
+ <input type="text" name="result" rdisabled>
+ <input type="reset" name="limpar" value="limpar tudo">
+    
+<script src="conversor de moeda.js"></script>
+
+    
+</body>
+</html>
